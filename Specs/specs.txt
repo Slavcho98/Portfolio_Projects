@@ -1,0 +1,26 @@
+colors:
+
+lightgrey sections - rgb(246, 246, 246)
+dark buttons - rgb(48, 47, 47)
+red box - rgb(255, 84, 68)
+purple box - rgb(170, 45, 182)
+cyan box - rgb(30, 194, 164)
+blue box - rgb(39, 139, 224)
+box-shadow color - 0px 1px 5px 1px rgba(50, 50, 50, .3)
+
+buttons hover color - rgb(45, 45, 45)
+social sections color - #464646
+
+font-family: 
+ubuntu mono google font
+https://fonts.google.com/specimen/Ubuntu+Mono?query=ubuntu+mono
+
+icons: 
+hamburger menu: <i class="fas fa-bars menu-bars"></i>
+social-icons:
+1.<a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+2.<a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+3.<a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+4.<a href="https://www.behance.net/" target="_blank"><i class="fab fa-behance"></i></a>
+5.<a href="https://dribbble.com/" target="_blank"><i class="fab fa-dribbble"></i></a>
+6. <a href="https://plus.google.com/" target="_blank"><i class="fab fa-google-plus-g "></i></a>
