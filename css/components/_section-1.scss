@@ -1,0 +1,45 @@
+@use "..//abstracts/variables" as var;
+@use "../abstracts/mixins" as mix;
+@use "sass:math";
+
+.flex-parent {
+  display: flex;
+  flex-wrap: wrap;
+
+  @media screen and (max-width: 425px) {
+    flex-direction: column;
+  }
+
+  .flex-item {
+    flex-basis: 33.333%;
+    position: relative;
+
+    @include mix.tablet-styles {
+      flex-basis: 50%;
+    }
+  }
+
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p {
+      @extend %paragraph;
+    }
+
+    img {
+      width: 100%;
+      min-height: 50vh;
+      transition: 0.8s;
+
+      &:hover {
+        opacity: 0;
+      }
+    }
+
+    img:hover + p {
+      opacity: 1;
+    }
+  }
+}
