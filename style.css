@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  background-color: #c7c8cc;
+}
+
+.slider-wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-images {
+  width: 40%;
+}
+
+button {
+  margin-right: 0.5rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #525659;
+  color: #fff;
+}
+
+.opacity {
+  background-color: rgba(82, 86, 89, 0.5);
+}
+
+.d-flex {
+  margin-right: -0.5rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+ 
+}
+
+
