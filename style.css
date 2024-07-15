@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #638caa;
+  color: #fff;
+}
+
+img {
+  max-width: 100%;
+}
+
+h2,
+h3 {
+  margin: 1rem 0;
+}
+
+/* HEADER */
+
+.float-menu {
+  margin: 0 3rem;
+  margin-top: 0.5rem;
+}
+
+.logo {
+  width: 30px;
+  float: left;
+}
+
+nav ul {
+  float: right;
+}
+
+nav ul li {
+  float: left;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  list-style: none;
+}
+
+nav ul li::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: #f44336;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+
+nav ul li:hover::after {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+nav ul li a:hover {
+  color: #bcb9aa;
+}
+
+figure {
+  text-align: center;
+  clear: both;
+}
+
+figure img {
+  width: 35%;
+  margin-top: 2rem;
+}
+
+/* BACKGROUND-COLORS */
+.bg-color-1 {
+  background-color: #dbdbdb;
+}
+
+.bg-color-2 {
+  background-color: #bcb9aa;
+}
+
+.bg-color-3 {
+  background-color: #9ce0d1;
+}
+
+.bg-color-4 {
+  background-color: #9aa7b8;
+}
+
+.bg-color-5 {
+  background-color: #b7ced6;
+}
+
+/* CONTAINER-1 */
+
+.container-1 {
+  text-align: center;
+  font-weight: bold;
+  color: #000;
+}
+
+.container-1 div {
+  width: 25%;
+  float: left;
+}
+
+.container-1 i {
+  margin-top: 1rem;
+  font-size: 3.5rem;
+}
+
+.container-1 div::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+/* CONTAINER-2 */
+
+.img-col {
+  width: 50%;
+  min-height: 40vh;
+  float: left;
+}
+
+.text-col {
+  width: 50%;
+  min-height: 40vh;
+  float: left;
+  text-align: justify;
+  padding: 0 1rem;
+}
+
+#macbook {
+  background-color: #f09e84;
+  min-height: 35vh;
+}
+
+.container-2 h3 {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.container-2 p {
+  margin-top: 3.5rem;
+  text-indent: 1rem;
+  word-spacing: 3px;
+}
+
+.container-2 img {
+  width: 35%;
+  display: block;
+  margin: .5rem auto 0 auto;
+}
+
+.container-2::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+/* CONTAINER-3 */
+
+.container-3 div {
+  width: 33.33%;
+  float: left;
+  text-align: center;
+}
+
+.container-3 div h2 {
+  color: #000;
+}
+
+.container-3 div p {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  font-size: 0.8rem;
+}
+
+.container-3::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+/* CONTACT */
+
+footer {
+  text-align: center;
+}
+
+.social-media {
+  padding: 5rem;
+}
+
+.social-media a {
+  font-size: 2rem;
+  margin: 0 4rem;
+  color: #fff;
+}
+
+.copyright {
+  padding: 1rem;
+  background-color: #514354;
+}
