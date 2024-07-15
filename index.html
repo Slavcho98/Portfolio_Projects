@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expense Tracker</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+  </head>
+  <body class="container mt-5">
+    <h2>Expense Tracker</h2>
+
+    <form action="" class="form-group">
+      <input
+        type="text"
+        name="category"
+        id="getCategory"
+        class="form-control"
+        placeholder="Enter a category"
+      />
+
+      <button id="addCategory" class="btn btn-primary mt-2">
+        Add Category
+      </button>
+    </form>
+    <!-- Expense Form -->
+    <div class="mb-3">
+      <input
+        type="text"
+        id="description"
+        placeholder="Description"
+        class="form-control"
+      />
+      <input
+        type="number"
+        id="amount"
+        placeholder="Amount"
+        class="form-control mt-2"
+      />
+      <input type="date" id="date" class="form-control mt-2" />
+      <select id="category" class="form-control mt-2" required>
+        <option value="Food" disabled selected>Select category</option>
+      </select>
+      <!-- <input type="hidden" id="editIndex" value="" /> -->
+      <button id="submitExpense" class="btn btn-primary mt-2">
+        Submit Expense
+      </button>
+    </div>
+    <select
+      name="selectFilter"
+      id="filterCategory"
+      class="form-control mt-2 w-25"
+    >
+      <option value="All" selected>All</option>
+    </select>
+    <!-- Display Expenses -->
+    <div class="container mt-5">
+      <div class="mt-4">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Description</th>
+              <th scope="col">
+                Amount
+                <button class="btn btn-light btn-sm amount-asc">&#9650;</button>
+                <button class="btn btn-light btn-sm amount-desc">
+                  &#9660;
+                </button>
+              </th>
+              <th scope="col">
+                Date
+                <button class="btn btn-light btn-sm date-asc">&#9650;</button>
+                <button class="btn btn-light btn-sm date-desc">&#9660;</button>
+              </th>
+              <th scope="col">Category</th>
+              <th scope="col">Actions</th>
+            </tr>
+          </thead>
+
+          <tbody id="expensesList"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
