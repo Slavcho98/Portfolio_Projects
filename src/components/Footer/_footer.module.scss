@@ -1,0 +1,22 @@
+@use "../../css/abstracts/variables" as var;
+@use "../../css/abstracts/mixins" as mix;
+@use "sass:math";
+
+.footer {
+  text-align: center;
+  background-color: #f7f7f7;
+  padding: 2rem;
+
+  ul {
+    list-style: none;
+
+    li:not(:last-child) {
+      margin-bottom: 0.5rem;
+    }
+
+    li a {
+      text-transform: uppercase;
+      color: var.$text-color-secondary;
+    }
+  }
+}

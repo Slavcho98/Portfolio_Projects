@@ -1,0 +1,38 @@
+@use "../../css/abstracts/variables" as var;
+@use "../../css/abstracts/mixins" as mix;
+@use "sass:math";
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+
+  @media screen and (max-width: 425px) {
+    flex-direction: column;
+  }
+
+  .col {
+    position: relative;
+    flex-basis: 33.333%;
+    
+    @media screen and (max-width: 768px) {
+      flex-basis: 50%;
+    }
+
+    .overlay {
+      width: 100%;
+      background-color: rgba($color: #592e00, $alpha: 0.4);
+      position: absolute;
+      inset: 0;
+    }
+
+    .card_body {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      text-wrap: nowrap;
+      color: var.$text-color-primary;
+    }
+  }
+}
