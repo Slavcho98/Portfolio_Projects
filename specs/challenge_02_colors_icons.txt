@@ -1,0 +1,26 @@
+Colors:
+-dark-grey: #272833;
+-light-grey:#3d3e48; (za kruznite ikoni)
+-red: #e44c65;
+-violet: #5d5dee;
+-green: #2dd451;
+-cyan: #008b8b; (za kopcinjata na hover)
+
+Icons:
+fa-solid fa-angle-down (ikonata vo prva sekcija)
+
+Ikonite vo sekcijata so crna boja
+fa-solid fa-chart-line
+fa-solid fa-comment
+fa-solid fa-flask
+fa-solid fa-paper-plane
+fa-solid fa-file
+fa-solid fa-lock
+
+Najdolni ikoni
+fa-brands fa-twitter
+fa-brands fa-facebook
+fa-brands fa-linkedin
+fa-brands fa-instagram
+fa-brands fa-github
+fa-solid fa-envelope
