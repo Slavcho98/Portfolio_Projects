@@ -39,11 +39,11 @@ To start the project, follow these steps:
 
 1. Install dependencies if they are missing using npm:
 
--   Navigate to the **Project_02** branch.
+-   Navigate to the **javascirpt-tailwind-vite-project** branch.
 -   Run **npm init.**
 -   Run **npm install.**
 
-2.Navigate to the Project_02 branch.
+2.Navigate to the javascirpt-tailwind-vite-project branch.
 
 -   Ensure you have Vite installed. If not, run: **npm install vite --save-dev.**
 -   Then, start the development server with: **npm run dev.**
@@ -57,7 +57,7 @@ To start the project, follow these steps:
 
 -    Install Flask-CORS: **pip install Flask-CORS.**
 
--    Navigate to the **Project_02 branch.**
+-    Navigate to the **javascirpt-tailwind-vite-project**
 
 -    Navigate to the REST_API directory: **cd REST_API.**
 
